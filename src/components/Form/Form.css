@@ -71,3 +71,66 @@ button {
 .link-forgot a {
     color:  #2fa2c3;
 }
+.start {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    outline: none;
+}
+
+.cross {
+    background-color: transparent;
+    background-image: url("../../icon/cross-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    outline: none;
+}
+
+form {
+    position: relative;
+}
+
+.success {
+    border: 1px solid #64b48a;
+    margin-top: 34px;
+}
+
+.ok {
+    background-color: transparent;
+    background-image: url("../../icon/ok-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    outline: none;
+}
+
+.icon-email {
+    background-color: transparent;
+    background-image: url("../../icon/mail-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    outline: none;
+    position: absolute;
+    bottom: 59%;
+    left: 19%;
+    top :0;
+}
+
+.icon-password {
+    background-color: transparent;
+    background-image: url("../../icon/password-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    outline: none;
+    position: absolute;
+    bottom: 5%;
+    left: 19%;
+    top: 0;
+}
+.error-text {
+    height: 14px;
+}

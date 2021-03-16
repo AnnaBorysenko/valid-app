@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './Form.css';
 import {Input} from "../Input/Input";
 
+
 const testLogin = {
     validEmail: (value) => value === 'johndoe@gmail.com',
     validPassword: (value) => value === 'qwerty123'

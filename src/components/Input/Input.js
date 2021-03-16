@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
+import '../Form/Form.css';
 
 export const Input = ({err, btn, isLogin, ...rest}) => {
-    const cls = [`form-control`, err ? ' ' : '', isLogin ? ', success ' : ''].join('');
+    const cls = [`form-control`, err ? ' ' : '', isLogin ? ' success ' : ''].join('');
 
     return (
             <div>
